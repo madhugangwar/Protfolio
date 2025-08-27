@@ -112,6 +112,7 @@ const Projects = () => {
                     <span>Code</span>
                   </a>
 
+               {/* 
                   <a 
                     href={project.demo} 
                     target="_blank" 
@@ -120,7 +121,7 @@ const Projects = () => {
                   >
                     <ExternalLink size={18} />
                     <span>Live Demo</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
