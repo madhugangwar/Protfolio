@@ -10,8 +10,8 @@ const Projects = () => {
       icon: Heart,
       color: 'from-red-500 to-pink-500',
       features: ['Patient Management', 'Doctor Scheduling', 'Real-time Notifications', 'Admin Dashboard'],
-      github: 'https://github.com/yourusername/health-appointment-system',
-      demo: 'https://yourdemo.com/health-appointment-system'
+      github: 'https://github.com/madhugangwar/DoctorAppointmentSystem',
+     
     },
     {
       title: 'Finance Tracker App',
@@ -21,7 +21,6 @@ const Projects = () => {
       color: 'from-green-500 to-emerald-500',
       features: ['Expense Tracking', 'Budget Management'],
       github: 'https://github.com/madhugangwar/finance-tracker',
-      demo: 'https://financetracker12.netlify.app/'
     },
     {
       title: 'React Weather App',
@@ -31,7 +30,6 @@ const Projects = () => {
       color: 'from-blue-500 to-cyan-500',
       features: ['Current Weather'],
       github: 'https://github.com/madhugangwar/react-weather-app',
-      demo: 'https://reactweatherapp23.netlify.app/'
     },
     {
       title: 'Period Tracker with Reminders',
@@ -41,7 +39,6 @@ const Projects = () => {
       color: 'from-purple-500 to-violet-500',
       features: ['Period Tracking', 'Symptom Logging', 'Smart Reminders', 'Health Tips'],
       github: 'https://github.com/madhugangwar/react-weather-app',
-      demo: 'https://madhugangwar.github.io/Period-Tracker/'
     }
   ];
 
