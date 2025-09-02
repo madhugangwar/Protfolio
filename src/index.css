@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Custom CSS Animations */
+
 @layer utilities {
-  /* Fade In Animations */
   .animate-fade-in-up {
     animation: fadeInUp 1s ease-out forwards;
   }
@@ -17,7 +16,6 @@
     animation: fadeInRight 1s ease-out forwards;
   }
 
-  /* Float Animation */
   .animate-float {
     animation: float 3s ease-in-out infinite;
   }
@@ -27,24 +25,20 @@
     animation-delay: 1s;
   }
 
-  /* Bounce Slow */
   .animate-bounce-slow {
     animation: bounce 3s ease-in-out infinite;
   }
 
-  /* Spin Slow */
   .animate-spin-slow {
     animation: spin 20s linear infinite;
   }
 
-  /* Draw Animation for SVG */
   .animate-draw {
     stroke-dasharray: 200;
     stroke-dashoffset: 200;
     animation: draw 4s ease-in-out infinite;
   }
 
-  /* Animation Delays */
   .animation-delay-2000 {
     animation-delay: 2s;
   }
@@ -54,7 +48,6 @@
   }
 }
 
-/* Keyframe Animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -106,12 +99,10 @@
   }
 }
 
-/* Smooth Scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -129,13 +120,11 @@ html {
   background: linear-gradient(to bottom, rgba(168, 85, 247, 1), rgba(59, 130, 246, 1));
 }
 
-/* Custom Selection */
 ::selection {
   background-color: rgba(168, 85, 247, 0.3);
   color: white;
 }
 
-/* Responsive Typography */
 @media (max-width: 768px) {
   .text-7xl {
     font-size: 3rem;
@@ -150,7 +139,6 @@ html {
   }
 }
 
-/* Loading Animation */
 .loading-dots {
   display: inline-block;
   position: relative;
@@ -168,7 +156,6 @@ html {
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
-/* Hover Effects */
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

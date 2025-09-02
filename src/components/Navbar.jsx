@@ -43,7 +43,6 @@ const Navbar = () => {
             <span className="text-white font-bold text-xl">Madhu Gangwar</span>
           </div>
 
-          {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <button
@@ -56,7 +55,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -67,7 +65,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden bg-slate-800/95 backdrop-blur-sm rounded-lg mb-4 overflow-hidden">
             {navItems.map((item) => (

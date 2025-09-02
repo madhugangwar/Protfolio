@@ -23,7 +23,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/madhu-gangwar"
+                href="https://linkedin.com/madhu-gangwar-3220721b5/"
                 className="p-2 rounded-full bg-blue-600/20 text-blue-400 hover:bg-blue-600/30 hover:scale-110 transition-all duration-300"
               >
                 <Linkedin size={20} />

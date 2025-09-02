@@ -112,7 +112,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com/madhu-gangwar"
+              href="https://www.linkedin.com/madhu-gangwar"
               className="p-3 rounded-full bg-blue-600/20 text-blue-400 hover:bg-blue-600/30 hover:scale-110 transition-all duration-300 hover:-rotate-12"
             >
               <Linkedin size={24} />
