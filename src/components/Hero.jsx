@@ -55,7 +55,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Moving Computer Animation */}
         <div className="absolute top-1/2 right-10 transform -translate-y-1/2">
           <div className="relative animate-pulse">
             <div className="w-24 h-16 bg-gradient-to-br from-slate-700 to-slate-800 rounded-lg border-2 border-purple-400/50">
@@ -112,7 +111,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/madhu-gangwar"
+              href="https://www.linkedin.com/in/madhu-gangwar-3220721b5/"
               className="p-3 rounded-full bg-blue-600/20 text-blue-400 hover:bg-blue-600/30 hover:scale-110 transition-all duration-300 hover:-rotate-12"
             >
               <Linkedin size={24} />
