@@ -1,8 +1,10 @@
-Live Demo - 
+ Live Demo -  https://madhugangwar.github.io/Protfolio
 
-#Tech Stacks
- React.js
- Tailwind.css
- CSS
- LocalStorage
+Tech-Stack - 
 
+	React.js
+	Tailwind.css
+	CSS
+	LocalStorage
+
+ 
