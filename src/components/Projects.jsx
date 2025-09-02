@@ -111,17 +111,6 @@ const Projects = () => {
                     <Github size={18} />
                     <span>Code</span>
                   </a>
-
-               {/* 
-                  <a 
-                    href={project.demo} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
-                  >
-                    <ExternalLink size={18} />
-                    <span>Live Demo</span>
-                  </a> */}
                 </div>
               </div>
             </div>
