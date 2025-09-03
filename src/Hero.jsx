@@ -28,9 +28,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Coding Animation Background */}
       <div className="absolute inset-0 opacity-20">
-        {/* Floating Code Blocks */}
         <div className="absolute top-20 left-20 animate-float">
           <div className="bg-gradient-to-r from-purple-500/30 to-blue-500/30 p-4 rounded-lg backdrop-blur-sm">
             <div className="text-green-400 font-mono text-sm">
