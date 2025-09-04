@@ -4,42 +4,42 @@ import { ExternalLink, Github, Calendar, Heart, DollarSign, Cloud } from 'lucide
 const Projects = () => {
   const projects = [
     {
-      title: 'Health Appointment System',
-      description: 'A comprehensive full-stack web application for managing medical appointments. Features include patient registration, doctor scheduling, appointment booking, and admin dashboard with real-time notifications.',
-      technologies: ['React.js', 'Node.js', 'Express', 'MongoDB', 'JWT Authentication'],
-      icon: Heart,
-      color: 'from-red-500 to-pink-500',
-      features: ['Patient Management', 'Doctor Scheduling', 'Real-time Notifications', 'Admin Dashboard'],
-      github: 'https://github.com/madhugangwar/DoctorAppointmentSystem',
-     
-    },
-    {
-      title: 'Finance Tracker App',
-      description: 'A responsive finance tracker built with vanilla JavaScript. Track expenses, and total income.',
-      technologies: ['HTML5', 'CSS3', 'JavaScript'],
-      icon: DollarSign,
-      color: 'from-green-500 to-emerald-500',
-      features: ['Expense Tracking', 'Budget Management'],
-      github: 'https://github.com/madhugangwar/finance-tracker',
-    },
-    {
-      title: 'React Weather App',
-      description: 'Weather application built with React.js that provides current weather conditions and location-based weather data.',
-      technologies: ['React.js', 'Weather API'],
-      icon: Cloud,
-      color: 'from-blue-500 to-cyan-500',
-      features: ['Current Weather'],
-      github: 'https://github.com/madhugangwar/react-weather-app',
-    },
-    {
-      title: 'Period Tracker with Reminders',
-      description: 'A comprehensive women\'s health tracking application with period prediction, symptom tracking, reminders, and health tips. Features calendar view and personalized insights.',
-      technologies: ['React.js', 'Local Storage', 'Calendar API', 'Push Notifications'],
-      icon: Calendar,
-      color: 'from-purple-500 to-violet-500',
-      features: ['Period Tracking', 'Symptom Logging', 'Smart Reminders', 'Health Tips'],
-      github: 'https://github.com/madhugangwar/react-weather-app',
-    }
+  title: 'Health-bites',
+  description: 'A health-focused web app offering meal planning, healthy recipes, calorie tracking with graphs, and wellness articles.',
+  technologies: ['React.js', 'Bootsrap', 'CSS', 'Local Storage'],
+  icon: Heart,
+  color: 'from-red-500 to-pink-500',
+  features: ['Meal Planner', 'Recipes', 'Calorie Calculator (Bar Graphs)', 'Health Articles'],
+  github: 'https://github.com/madhugangwar/Health-bites',
+},
+{
+  title: 'Expenses Tracker',
+  description: 'A responsive expense management app to track income, spending, and budgets with visual reports.',
+  technologies: ['React.js', 'CSS3', 'LocalStorage'],
+  icon: DollarSign,
+  color: 'from-green-500 to-emerald-500',
+  features: ['Expense Tracking', 'Budget Management', 'Interactive Bar Graphs'],
+  github: 'https://github.com/madhugangwar/Expenses-tracker',
+},
+{
+  title: 'Personal Portfolio',
+  description: 'A personal portfolio website to showcase projects, skills, and achievements with a clean, responsive design.',
+  technologies: ['React.js', 'TailWind css', 'CSS'],
+  icon: Cloud,
+  color: 'from-blue-500 to-cyan-500',
+  features: ['Project Showcase', 'Responsive UI', 'Modern Design'],
+  github: 'https://github.com/madhugangwar/Protfolio',
+},
+{
+  title: 'Period Tracker with Reminders',
+  description: 'A women’s health tracking app for period prediction, symptom logging, smart reminders, and personalized health tips.',
+  technologies: ['React.js', 'Local Storage', 'Calendar API', 'Push Notifications'],
+  icon: Calendar,
+  color: 'from-purple-500 to-violet-500',
+  features: ['Period Tracking', 'Symptom Logging', 'Smart Reminders', 'Health Tips'],
+  github: 'https://github.com/madhugangwar/Period-Tracker',
+}
+
   ];
 
   return (
